@@ -58,7 +58,7 @@ jobs:
 
 ### Token
 
-The NPM token should be allowed to publish packages to NPM without 2FA and it should be stored in the repository secrets.
+The `token` should be allowed to publish packages to NPM without 2FA and it should be stored in the repository secrets.
 
 ### Dry run
 
