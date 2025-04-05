@@ -19,6 +19,10 @@ on:
     branches:
       - main
 
+permissions:
+  id-token: write
+  contents: write
+
 jobs:
   test:
     runs-on: ubuntu-latest
@@ -67,4 +71,12 @@ If `dry-run` is true, the action will not publish the package to NPM.
 ### Provenance
 
 If `provenance` is true, the action will publish the package with provenance enabled.
+
+## Permissions
+
+| Permission | Read / Write | Description |
+|------------|--------------|-------------|
+| id-token   | Write        | Needed to publish to NPM with provenance |
+| contents   | Write        | Needed to create a GitHub release |
+
 
