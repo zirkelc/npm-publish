@@ -1,4 +1,4 @@
-# Setup and Install Action
+# NPM Publish Action
 
 This is a composite action that publishes a package to NPM and creates a release on GitHub.
 
